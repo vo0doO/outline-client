@@ -19,5 +19,5 @@ yarn do src/www/build
 tsc -p src/electron
 
 # Environment variables.
-# TODO: make non-packaged builds work without this
+# TODO: заставить неупакованные сборки работать без этого
 scripts/environment_json.sh -p dev > www/environment.json
