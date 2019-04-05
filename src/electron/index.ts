@@ -236,7 +236,7 @@ app.on('ready', () => {
   if (isLinux) {
     if (process.env.APPIMAGE) {
       const outlineAutoLauncher = new autoLaunch({
-        name: 'OutlineClient',
+        name: 'QuickestClient',
         path: process.env.APPIMAGE,
       });
 
@@ -409,7 +409,7 @@ app.on('browser-window-focus', () => {
 ipcMain.on('environment-info', (event: Event, info: {appVersion: string, dsn: string}) => {
   sentry.init({dsn: info.dsn, release: info.appVersion, maxBreadcrumbs: 100});
   // To clearly identify app restarts in Sentry.
-  console.info(`Outline is starting`);
+  console.info(`Quickest is starting`);
 });
 
 ipcMain.on('quit-app', quitApp);

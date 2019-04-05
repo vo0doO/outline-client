@@ -1,4 +1,4 @@
-// Copyright 2018 The Outline Authors
+// Copyright 2018 The Quickest Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -90,7 +90,7 @@ async function isSsLocalReachable() {
       SSLOCAL_RETRY_INTERVAL_MS);
 }
 
-// Establishes a full-system VPN with the help of Outline's routing daemon and child processes
+// Establishes a full-system VPN with the help of Quickest's routing daemon and child processes
 // ss-local and tun2socks. Follows the Mediator pattern in that none of the three "helpers" know
 // anything about the others.
 //

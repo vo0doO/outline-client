@@ -1,4 +1,4 @@
-// Copyright 2018 The Outline Authors
+// Copyright 2018 The Quickest Authors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -59,7 +59,7 @@ declare namespace cordova.plugins.outline {
     // server as dictated by its configuration. If there is another running
     // instance, broadcasts a disconnect event and stops the running connection.
     // In such case, restarts tunneling while preserving the VPN connection.
-    // Rejects with an OutlinePluginError.
+    // Rejects with an QuickestPluginError.
     start(): Promise<void>;
 
     // Stops the connection and VPN service.

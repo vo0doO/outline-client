@@ -1,6 +1,6 @@
 #!/bin/bash -eu
 #
-# Copyright 2018 The Outline Authors
+# Copyright 2018 The Quickest Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 yarn do src/electron/build
 
-# Generate CSS rules to mirror the UI in RTL languages.	
+# Generate CSS rules to mirror the UI in RTL languages.
 node -e "require('./scripts/generate_rtl_css.js')('www/ui_components/*.html', 'www/ui_components')"
 
 # Icons.
