@@ -1,7 +1,7 @@
 <!--
-  Copyright 2018 The Outline Authors
-
-  Licensed under the Apache License, Version 2.0 (the "License");
+#  Copyright 2018 The Outline Authors
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
 
@@ -15,7 +15,7 @@
 -->
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.outline.android.client" version="1.2.10" android-versionCode="21" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Outline</name>
+    <name>Quickly</name>
     <description>
         Internet without borders (powered by Shadowsocks)
     </description>
@@ -134,10 +134,10 @@
 
     <!-- Sentry error reporting keys -->
     <sentry>
-        <dev dsn="https://319145c481df41458bb6e84c1a99c9ff@sentry.io/159503" />
-        <release dsn="https://6a1e6e7371a64db59f5ba6c34a77d78c@sentry.io/159502" />
-        <dev-native dsn="https://319145c481df41458bb6e84c1a99c9ff:73cc3261d25e44ac90221e7d9ad30b24@sentry.io/159503" />
-        <release-native dsn="https://6a1e6e7371a64db59f5ba6c34a77d78c:568f6c78f9f94f91afba4aba05756001@sentry.io/159502" />
+        <dev dsn="https://1fd65d43f1b34a108c3e429435a1ed4d@sentry.io/1413841" />
+        <release dsn="https://6949e20e502611e9ac2d4201c0a8d02a@sentry.io/1413841" />
+        <dev-native dsn="https://1fd65d43f1b34a108c3e429435a1ed4d:ba8445470a834cf5ae6425f677faf63b@sentry.io/1413841" />
+        <release-native dsn="https://6949e20e502611e9ac2d4201c0a8d02a:ba8445470a834cf5ae6425f677faf63b@sentry.io/1413841" />
     </sentry>
 
     <engine name="android" spec="~7.1.4" />
